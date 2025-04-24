@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Shadows+Into+Light&display=swap');
+
+body{
+    background-color: #A7BEAE;
+  text-align: center;
+}
+.intro h1{
+    text-align: center;
+    margin: 80px auto;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 600;
+    color: #B85042;
+    
+}
+.highlight {
+    background-color: #E7E8D1; 
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    transition:ease-in-out 400ms;
+
+}
+.highlight:hover{
+
+    height: 47px;
+}
+.dotted{
+ border: none;
+  border-top: 2px dotted black;  
+  width: 70%;
+  margin: 25px auto;
+}
+
+.intro h4{
+  color: #E7E8D1;
+}
+.fas.fa-bookmark{
+    color: #B85042;
+}
+.fas.fa-link{
+    color: #B85042;
+}
+
+.container {
+    color: #E7E8D1;
+    font-size: 20px;
+    font-weight: 500;
+}
+#submitBtn{
+    background-color: #B85042;
+    color: #E7E8D1;
+    width: 110px;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: -25px;
+    transition: ease-in-out 0.3s;
+}
+#submitBtn:hover{
+    background-color: #d47d71;
+    font-size: 20px;
+    width: 115px;
+
+}
+.table{
+    border:#B85042;
+    border-radius: 10px;
+}
+.table th{
+    color: #A7BEAE;
+    font-size: larger;
+    background-color: #E7E8D1;
+}
+.table td{
+    color: #B85042;
+}
